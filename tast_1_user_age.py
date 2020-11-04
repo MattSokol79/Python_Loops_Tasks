@@ -12,6 +12,7 @@ print(f"Omg {name}, you are {age} years old so you were born in {birth_year}.")
 
 
 # Extension - determining whether the user has already celebrated their birthday
+# REQUIRES REFINEMENT
 today = date.today()
 months_left = bday.month - today.month
 days_left =  bday.day - today.day
